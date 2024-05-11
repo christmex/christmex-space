@@ -5,6 +5,11 @@
 
 <template>
   <SpeedInsights />
+  <ul class="circles">
+      <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+  </ul>
+  <div class="absolute -z-10 inset-0 bg-[url(/img/grid.svg)] -top-10 [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+  
   <div class="container p-4 mx-auto sm:w-[1080px]">
     <header class="flex justify-between py-4">
         <div class="brand">
