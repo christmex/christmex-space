@@ -8,7 +8,7 @@
   <ul class="circles">
       <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
   </ul>
-  <div class="absolute -z-10 inset-0 bg-[url(/img/grid.svg)] -top-10 [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+  <!-- <div class="absolute -z-10 inset-0 bg-[url(/img/grid.svg)] -top-10 [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div> -->
   
   <div class="container p-4 mx-auto sm:w-[1080px]">
     <header class="flex justify-between py-4">
@@ -51,7 +51,7 @@
         </nav>
     </header>
     <div>
-      <div class="mt-4">
+      <div class="mt-4 2xl:mt-10">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 lg:max-w-7xl lg:grid-cols-2">
         <div>
             <img src="https://christmex.github.io/assets/img/hero.svg" alt="" class="rounded-full md:w-3/5">
