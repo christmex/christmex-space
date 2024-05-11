@@ -1,4 +1,9 @@
+<script setup lang="ts">
+import { SpeedInsights } from '@vercel/speed-insights/vue';
+</script>
+
 <template>
+  <SpeedInsights />
   <div class="container p-4 mx-auto sm:w-[1080px]">
     <header class="flex justify-between py-4">
         <div class="brand">
