@@ -1,6 +1,7 @@
-<script setup lang="ts">
-import { SpeedInsights } from '@vercel/speed-insights/vue';
+<script setup>
+  import { SpeedInsights } from '@vercel/speed-insights/vue';
 </script>
+
 
 <template>
   <SpeedInsights />
@@ -73,19 +74,20 @@ import { SpeedInsights } from '@vercel/speed-insights/vue';
 </template>
 
 <script>
+
 export default {
-  data() {
-    return {
-      isActive: true // Menyimpan status kelas
-    };
-  },
-  methods: {
-    toggleClass(event) {
-      this.isActive = !this.isActive; // Mengubah status kelas saat tombol diklik
+    data() {
+      return {
+        isActive: true // Menyimpan status kelas
+      };
     },
-    setActive(){
-      this.isActive = true;
+    methods: {
+      toggleClass(event) {
+        this.isActive = !this.isActive; // Mengubah status kelas saat tombol diklik
+      },
+      setActive(){
+        this.isActive = true;
+      }
     }
-  }
-};
+  };
 </script>
