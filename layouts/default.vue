@@ -23,6 +23,11 @@
             <li class="font-medium"><NuxtLink to="https://christmex.medium.com/" target="_blank" activeClass="text-green-600">Blogs</NuxtLink></li>
             <!-- <li class="font-medium"><NuxtLink to="" activeClass="text-green-600">Portofolio</NuxtLink></li> -->
             <li class="font-medium"><a href="mailto:christmex@wearehackerone.com" class="text-green-600">💸 Hire Me</a></li>
+            <li class="font-medium">
+              <a href="https://github.com/christmex/" class="" target="_blank">
+                <img src="/img/github-mark.svg" alt="" class="size-6">
+              </a>
+            </li>
         </ul>
         <div class="md:hidden">
           <button @click="toggleClass" data-ripple-light="true" data-popover-target="menu"
@@ -44,17 +49,22 @@
             </li>
             <li role="menuitem"
               class="block w-full cursor-pointer select-none rounded-md px-3 pt-[9px] pb-2 text-start leading-tight transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-              <a href="mailto:christmex@wearehackerone.com" class="text-green-600">💸 Hire Me</a>
+              <a href="mailto:christmex@wearehackerone.com" class="">Hire Me</a>
+            </li>
+            <li role="menuitem"
+              class="block w-full cursor-pointer select-none rounded-md px-3 pt-[9px] pb-2 text-start leading-tight transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
+              <a href="https://github.com/christmex/" class="">Github
+              </a>
             </li>
           </ul>
         </div>
         </nav>
     </header>
     <div>
-      <div class="mt-4 2xl:mt-10">
+      <div class="mt-4 md:mt-6 2xl:mt-10">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 lg:max-w-7xl lg:grid-cols-2">
         <div>
-            <img src="https://christmex.github.io/assets/img/hero.svg" alt="" class="rounded-full md:w-3/5">
+            <img src="/img/hero.svg" alt="" class="rounded-full md:w-3/5">
             <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">TALL Dev &<br> IT Security Enthusiast</h2>
             <p class="mt-4 text-gray-500">
                 Hey there! I'm Jonathan from Indonesia.
@@ -63,6 +73,7 @@
                 <!-- Learn things about technology, such as Cyber Security,<br>Web Technology and UI/UX design. -->
             </p>
             <a href="mailto:christmex@wearehackerone.com" class="px-4 inline-block bg-green-600 text-white font-medium p-2 rounded-md mt-6">💸 Hire Me</a>
+            
         </div>
         <slot />
         </div>
