@@ -20,9 +20,9 @@
         <ul class="md:flex space-x-8 hidden">
             <!-- <li class="font-medium text-red"><NuxtLink to="/" activeClass="text-green-600">Home</NuxtLink></li> -->
             <!-- <li class="font-medium text-red"><NuxtLink to="/about" activeClass="text-green-600">About</NuxtLink></li> -->
-            <li class="font-medium"><NuxtLink to="https://christmex.medium.com/" target="_blank" activeClass="text-green-600">Blogs</NuxtLink></li>
             <!-- <li class="font-medium"><NuxtLink to="" activeClass="text-green-600">Portofolio</NuxtLink></li> -->
             <li class="font-medium"><a href="mailto:christmex@wearehackerone.com" class="text-green-600">💸 Hire Me</a></li>
+            <li class="font-medium"><NuxtLink to="https://christmex.medium.com/" target="_blank" activeClass="text-green-600">Blogs</NuxtLink></li>
             <li class="font-medium">
               <a href="https://github.com/christmex/" class="" target="_blank">
                 <img src="/img/github-mark.svg" alt="" class="size-6">
@@ -45,11 +45,11 @@
             </li> -->
             <li role="menuitem"
               class="block w-full cursor-pointer select-none rounded-md px-3 pt-[9px] pb-2 text-start leading-tight transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-              <NuxtLink to="https://christmex.medium.com/" target="_blank" activeClass="text-green-600">Blogs</NuxtLink>
+              <a href="mailto:christmex@wearehackerone.com" class="">Hire Me</a>
             </li>
             <li role="menuitem"
               class="block w-full cursor-pointer select-none rounded-md px-3 pt-[9px] pb-2 text-start leading-tight transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
-              <a href="mailto:christmex@wearehackerone.com" class="">Hire Me</a>
+              <NuxtLink to="https://christmex.medium.com/" target="_blank" activeClass="text-green-600">Blogs</NuxtLink>
             </li>
             <li role="menuitem"
               class="block w-full cursor-pointer select-none rounded-md px-3 pt-[9px] pb-2 text-start leading-tight transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
