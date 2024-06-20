@@ -13,6 +13,11 @@
         <h3 class="font-medium text-4xl">Latest Work</h3>
         <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             <div class="border-t border-gray-200 pt-4">
+                <dt class="font-medium">🎓 Filamic</dt>
+                <dd class="mt-2 text-sm text-gray-500">Free app for indonesian school.</dd>
+                <a href="https://github.com/filamic" target="_blank" class="text-sm italic inline-block mt-2">github.com/filamic</a>
+            </div>
+            <div class="border-t border-gray-200 pt-4">
                 <dt class="font-medium">🏫 Sekolah BASIC</dt>
                 <dd class="mt-2 text-sm text-gray-500">One of the best christian school in Batam City.</dd>
                 <a href="https://sekolahbasic.sch.id" target="_blank" class="text-sm italic inline-block mt-2">sekolahbasic.sch.id</a>
